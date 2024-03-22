@@ -18,7 +18,7 @@ export default function Home() {
   const [result, setResult] = useState<number | string>(0);
   const [str, setStr] = useState("");
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 gap-10">
+    <main className="flex min-h-screen flex-col items-center p-5 gap-10">
       <h1 className="font-bold text-lg">Formula input functionality</h1>
       <div className="flex flex-col gap-5 w-full max-w-[800px]">
         <p>Formula: {str}</p>
